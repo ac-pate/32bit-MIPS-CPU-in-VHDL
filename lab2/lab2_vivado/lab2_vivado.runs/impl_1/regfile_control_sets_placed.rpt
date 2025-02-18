@@ -1,0 +1,96 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Tue Feb 18 10:03:28 2025
+| Host         : crux.encs.concordia.ca running 64-bit Scientific Linux release 7.9 (Nitrogen)
+| Command      : report_control_sets -verbose -file regfile_control_sets_placed.rpt
+| Design       : regfile
+| Device       : xc7a100t
+-----------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    32 |
+| Unused register locations in slices containing registers |     0 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      8 |           32 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               0 |            0 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |             256 |           46 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------+--------------------+------------------+------------------+----------------+
+|  Clock Signal  |    Enable Signal   | Set/Reset Signal | Slice Load Count | Bel Load Count |
++----------------+--------------------+------------------+------------------+----------------+
+|  clk_IBUF_BUFG | array_reg_reg[4]0  | reset_IBUF       |                1 |              8 |
+|  clk_IBUF_BUFG | array_reg_reg[26]0 | reset_IBUF       |                1 |              8 |
+|  clk_IBUF_BUFG | array_reg_reg[25]0 | reset_IBUF       |                2 |              8 |
+|  clk_IBUF_BUFG | array_reg_reg[18]0 | reset_IBUF       |                2 |              8 |
+|  clk_IBUF_BUFG | array_reg_reg[15]0 | reset_IBUF       |                1 |              8 |
+|  clk_IBUF_BUFG | array_reg_reg[9]0  | reset_IBUF       |                1 |              8 |
+|  clk_IBUF_BUFG | array_reg_reg[8]0  | reset_IBUF       |                1 |              8 |
+|  clk_IBUF_BUFG | array_reg_reg[6]0  | reset_IBUF       |                1 |              8 |
+|  clk_IBUF_BUFG | array_reg_reg[5]0  | reset_IBUF       |                1 |              8 |
+|  clk_IBUF_BUFG | array_reg_reg[3]0  | reset_IBUF       |                1 |              8 |
+|  clk_IBUF_BUFG | array_reg_reg[31]0 | reset_IBUF       |                2 |              8 |
+|  clk_IBUF_BUFG | array_reg_reg[29]0 | reset_IBUF       |                1 |              8 |
+|  clk_IBUF_BUFG | array_reg_reg[28]0 | reset_IBUF       |                1 |              8 |
+|  clk_IBUF_BUFG | array_reg_reg[27]0 | reset_IBUF       |                1 |              8 |
+|  clk_IBUF_BUFG | array_reg_reg[24]0 | reset_IBUF       |                2 |              8 |
+|  clk_IBUF_BUFG | array_reg_reg[7]0  | reset_IBUF       |                2 |              8 |
+|  clk_IBUF_BUFG | array_reg_reg[16]0 | reset_IBUF       |                2 |              8 |
+|  clk_IBUF_BUFG | array_reg_reg[30]0 | reset_IBUF       |                1 |              8 |
+|  clk_IBUF_BUFG | array_reg_reg[2]0  | reset_IBUF       |                2 |              8 |
+|  clk_IBUF_BUFG | array_reg_reg[17]0 | reset_IBUF       |                2 |              8 |
+|  clk_IBUF_BUFG | array_reg_reg[19]0 | reset_IBUF       |                2 |              8 |
+|  clk_IBUF_BUFG | array_reg_reg[12]0 | reset_IBUF       |                1 |              8 |
+|  clk_IBUF_BUFG | array_reg_reg[10]0 | reset_IBUF       |                2 |              8 |
+|  clk_IBUF_BUFG | array_reg_reg[23]0 | reset_IBUF       |                1 |              8 |
+|  clk_IBUF_BUFG | array_reg_reg[0]0  | reset_IBUF       |                2 |              8 |
+|  clk_IBUF_BUFG | array_reg_reg[11]0 | reset_IBUF       |                1 |              8 |
+|  clk_IBUF_BUFG | array_reg_reg[21]0 | reset_IBUF       |                1 |              8 |
+|  clk_IBUF_BUFG | array_reg_reg[20]0 | reset_IBUF       |                1 |              8 |
+|  clk_IBUF_BUFG | array_reg_reg[22]0 | reset_IBUF       |                1 |              8 |
+|  clk_IBUF_BUFG | array_reg_reg[1]0  | reset_IBUF       |                2 |              8 |
+|  clk_IBUF_BUFG | array_reg_reg[14]0 | reset_IBUF       |                3 |              8 |
+|  clk_IBUF_BUFG | array_reg_reg[13]0 | reset_IBUF       |                1 |              8 |
++----------------+--------------------+------------------+------------------+----------------+
+
+
