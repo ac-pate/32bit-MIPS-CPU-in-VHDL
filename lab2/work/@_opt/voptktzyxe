@@ -1,0 +1,40 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/a/ac_pate/COEN316/lab2
+T_opt
+Z1 Vi:?gEXI24ZB]n?I8PF0FJ0
+Z2 04 7 10 work regfile behavioral 1
+Z3 =1-c8d9d233cc66-67b4eedf-8de1c-4865
+Z4 o-quiet -auto_acc_if_foreign -work work
+Z5 n@_opt
+Z6 OL;O;6.6g;45
+Z7 d/home/a/ac_pate/COEN316/lab2
+Eregfile
+Z8 w1739844510
+Z9 DPx17 __model_tech/ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+Z10 DPx17 __model_tech/ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+32
+R7
+Z11 8regfile.vhd
+Z12 Fregfile.vhd
+l0
+L6
+Z13 V=K>j]<2eK:nXooBB86cRE3
+Z14 OL;C;6.6g;45
+Z15 tExplicit 1
+Z16 !s100 :cB4N4HfZg]FM17O0TF4J3
+Abehavioral
+R9
+R10
+DEx37 /nfs/home/a/ac_pate/COEN316/lab2/work 7 regfile 0 22 =K>j]<2eK:nXooBB86cRE3
+32
+Mx2 17 __model_tech/ieee 14 std_logic_1164
+Mx1 17 __model_tech/ieee 11 numeric_std
+l25
+L18
+Z17 VTfQMz?;NO2G?BP;`oj`cD0
+R14
+R15
+Z18 !s100 bM_P2@<<G;M8^mP0kjSJH1
